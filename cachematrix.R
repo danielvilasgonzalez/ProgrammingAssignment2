@@ -23,10 +23,11 @@ makeCacheMatrix <- function(x = matrix()) {
        getInv=getInv)
   
 }
+## inverse of the original matrix -------- makeCacheMatrix()
 
 cacheSolve <- function(x, ...) {
   
-## inverse of the original matrix -------- makeCacheMatrix()
+
   
   m<-x$getInv()
   if (!is.null(m)) {
